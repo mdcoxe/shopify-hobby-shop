@@ -8,12 +8,7 @@ import {
 	DrawerOverlay,
 	DrawerContent,
 	DrawerCloseButton,
-	Button,
 	Text,
-	Grid,
-	Flex,
-	Image,
-	Box,
 	VStack,
 } from '@chakra-ui/react';
 
