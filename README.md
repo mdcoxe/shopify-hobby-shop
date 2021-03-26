@@ -1,6 +1,6 @@
 # Hobby Ecommerce Shop
 
-Site is LIVE!!! !()[https://upbeat-poincare-753521.netlify.app/]
+Site is LIVE!!! [Click here!](https://upbeat-poincare-753521.netlify.app/)
 
 ## Project Overview
 
