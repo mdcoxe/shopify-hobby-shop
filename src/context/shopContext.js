@@ -46,7 +46,7 @@ class ShopProvider extends Component {
 		this.setState({ products: products });
 	};
 
-	fetchProductsWithHandle = async (handle) => {
+	fetchProductWithHandle = async (handle) => {
 		const product = await client.product.fetchByHandle(handle);
 		this.setState({ product: product });
 	};
