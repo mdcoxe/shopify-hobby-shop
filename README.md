@@ -1,5 +1,7 @@
 # Hobby Ecommerce Shop
 
+Site is LIVE!!! !()[https://upbeat-poincare-753521.netlify.app/]
+
 ## Project Overview
 
 This is an ecommerce site and my first attempt building an ecommerce site using the Shopify API. Also, learning how to use context in a more comprehensive way. I'm thoroughly
