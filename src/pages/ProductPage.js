@@ -1,5 +1,5 @@
 import React, { useEffect, useContext } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import {
 	Box,
 	Grid,
@@ -8,7 +8,6 @@ import {
 	Button,
 	Heading,
 	Flex,
-	Center,
 } from '@chakra-ui/react';
 
 import { ShopContext } from '../context/shopContext';
@@ -46,7 +45,9 @@ const ProductPage = () => {
 					</Text>
 					<Button
 						onClick={() => addItemToCheckout(product.variants[0].id, 1)}
-						pb="2rem"
+						w="10rem"
+						backgroundColor="#FF38BD"
+						color="white"
 					>
 						Add To Cart
 					</Button>
