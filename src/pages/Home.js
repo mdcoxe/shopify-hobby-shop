@@ -23,7 +23,7 @@ const Home = () => {
 				heading="The relaxation you've been waiting for."
 				text="Our bath bombs guarantee a fun, relaxing, and colorful night."
 			/>
-			<Grid templateColumns="repeat(3,1fr)">
+			<Grid templateColumns={['repeat(1,1fr)', 'repeat(3,1fr)']}>
 				{products.map((product) => (
 					<Link to={`/products/${product.handle}`} key={product.id}>
 						<Box
